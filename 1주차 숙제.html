@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>1주차숙제</title>
+ <style>
+
+ .mytitle {
+        color: black;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-color: white;
+        width: 1000px;
+        border-radius: 10px;
+        text-align: center;
+        margin: auto;
+
+  display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      } /* display flex를 쓸 때엔 아래 네 줄이 항상 묶여 다닙니다. */
+      .mytitle > h1 {
+        margin: 0 0 5px 0;
+        background-color: white;
+      }
+
+      .mytitle > h5 {
+        margin: 5px 10 0 ;
+        background-color:white;
+      }
+
+      .wrap {
+        width: 500px;
+        margin:auto;
+        background-color: white;
+      }
+  /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }*/
+
+      .bluefont {
+       color: blue;
+      }
+
+      .redfont {
+       color: red;
+      }
+      
+      .orangefont {
+       color: orange;
+      }
+
+      .textbox {
+        float: left;
+        background-color: white;
+        width: 1000px;
+        text-align: left;
+      } 
+  
+      
+  </style>
+</head>
+ 
+<body>
+  <script>
+      
+
+      function play() {
+        alert("주문이 완료되었습니다.")
+      }
+  </script>
+  
+      
+
+
+  <div class="mytitle">
+    <h1 class="redfont">New era</h1>
+    <div class="wrap">
+      <img src="http://www.neweracapkorea.com/shopimages/newerashop/0030010015852.jpg?1573711666" width="500" height="500" alt="모자"> 
+    </div> 
+  
+
+    <h1 class="bluefont">NBA X 엑스라지 LA 클리퍼스 사이즈캡 로얄블루</h1>
+    <h2> 가격: 1,000,0000원 /개 </h2>
+    <p>
+    <h2 >상품소개</h2>
+    <h5 class="orangefont">로스앤젤레스 레이커스[ Los Angeles Lakers ]
+    NBA 웨스턴콘퍼런스 태평양지구에 소속된 농구팀으로, 1947년 창단하였습니다. 연고지는 캘리포니아주 로스앤젤레스이나 원래는 미니애폴리스를 연고지로 하여 미니애폴리스 레이커스라는 팀명으로 창단하였습니다. 1960년 연고지를 로스앤젤레스로 옮기면서 지금의 팀명으로 바뀌었습니다. 팀명인 레이커스(Lakers)는 창단 당시 연고지인 미니애폴리스에 작은 호수들이 많은 데서 유래합니다. 오랜 역사를 지닌 명문구단으로, NBA 챔피언결정전에서 16회 우승하였습니다.</h5></p >
+         <div>
+           <p class="textbox">주문자 성함:<input type="text"/></p><br>
+
+
+           <p class="textbox">수량:      
+            <input type="text"></p ><br>
+
+           <p class="textbox">주소:      
+           <input type="text"></p >
+
+           <p>  <button onclick="play()">주문하기</button>
+</p>
+         </div>
+          <div>
+          <img src="http://newera5950.jpg3.kr/event/collection_sum_2019xlarge3.jpg" width="700" height="1000" alt="모자"> </div>
+      </div>
+</body>
+</html>
